@@ -3,7 +3,16 @@ name = "rs-pq-inmem-cols2ints"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the column of the parquet to ints for wasi."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-pq-inmem-cols2ints"
+homepage = "https://github.com/takanoriyanagitani/rs-pq-inmem-cols2ints"
+documentation = "https://docs.rs/rs-pq-inmem-cols2ints/latest"
+keywords = ["parquet", "arrow", "wasi", "integer", "convert"]
+
 exclude = [
+  "sample.d/input.parquet",
+  "sample.d/input.csv",
 ]
 
 [profile.release-wasi]
