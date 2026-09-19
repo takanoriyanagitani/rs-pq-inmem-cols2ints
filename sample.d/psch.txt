@@ -1,0 +1,6 @@
+message schema {
+  REQUIRED INT32 id;
+  OPTIONAL BYTE_ARRAY name (UTF8);
+  REQUIRED BOOLEAN active;
+  OPTIONAL DOUBLE score;
+}
